@@ -1,0 +1,30 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "Monitoramento",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "local",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tamanho",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20200930014042",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "area_de_risco",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "pagination",
+  "microserviceName": "Monitoramento"
+}

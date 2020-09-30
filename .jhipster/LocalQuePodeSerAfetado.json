@@ -1,0 +1,30 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "Monitoramento",
+  "relationships": [
+    {
+      "relationshipName": "areaDeRisco",
+      "otherEntityName": "areaDeRisco",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "nome",
+      "otherEntityRelationshipName": "localQuePodeSerAfetado"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "changelogDate": "20200930014322",
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "local_que_pode_ser_afetado",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "pagination",
+  "microserviceName": "Monitoramento"
+}
